@@ -1,0 +1,17 @@
+{
+  "name": "typescript-git-training",
+  "version": "1.0.0",
+  "description": "A example project to initiate on typescript and git development flows",
+  "scripts": {
+    "start": "tsc && http-server ./src -o -c-1"
+  },
+  "author": "Vinícius Resende Barbosa",
+  "license": "ISC",
+  "devDependencies": {
+    "ts-node": "^10.9.2",
+    "typescript": "^5.4.5"
+  },
+  "dependencies": {
+    "http-server": "^14.1.1"
+  }
+}
