@@ -16,16 +16,13 @@ To use this project, follow these steps:
    npm install
    ```
 3. Start the project by running the following command:
+
    ```
    npm start
    ```
-   This will start the project using the http-server package, which serves the site on a local server. You can access the site by opening your browser and navigating to `http://localhost:8080`.
 
-## Project Structure
+   Runs the app in the development mode.\
+   Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
 
-The project structure is organized as follows:
-
-- `src/`: Contains the TypeScript source code files.
-- `src/dist/`: Contains the compiled JavaScript files.
-- `package.json`: Defines the project dependencies and scripts.
-- `tsconfig.json`: Configures the TypeScript compiler options.
+   The page will reload when you make changes.\
+   You may also see any lint errors in the console.
